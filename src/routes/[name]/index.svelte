@@ -2,7 +2,7 @@
 	import { page } from "$app/stores";
 
 	// @ts-ignore
-	import previewData from "/static/previews/previewData.js";
+	import previewData from "/static/previews/previewData.json";
 
 	const current = previewData.find(element => element.nameShort === $page.params.name);
 </script>
@@ -18,20 +18,20 @@
 	<meta property="og:url" content="{window.location.href}">
 	<meta property="og:title" content="Malted's {current.name}">
 	<meta property="og:description" content="Malted's {current.name} shader (#{(previewData.indexOf(current) + 1).toString().padStart(3, '0')})">
-	<meta property="og:image" content="/static/previews/images/{current.nameShort}.png">
+	<meta property="og:image" content="/previews/images/{current.nameShort}.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="{window.location.href}">
 	<meta property="twitter:title" content="Malted's {current.name}">
 	<meta property="twitter:description" content="Malted's {current.name} shader (#{(previewData.indexOf(current) + 1).toString().padStart(3, '0')})">
-	<meta property="twitter:image" content="/static/previews/images/{current.nameShort}.png">
+	<meta property="twitter:image" content="/previews/images/{current.nameShort}.png">
 </svelte:head>
 
 <a href="..">
 	<img 
 		class="container back"
-		src="/static/icons/arrow_back_black_24dp.svg" 
+		src="/icons/arrow_back_black_24dp.svg" 
 		alt="back" 
 	/>
 </a>

@@ -3,7 +3,7 @@
 	import Footer from "./index/footer.svelte";
 
 	// @ts-ignore
-	import previewData from "/static/previews/previewData.js";
+	import previewData from "/static/previews/previewData.json";
 </script>
 
 <svelte:head>
