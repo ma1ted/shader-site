@@ -28,12 +28,4 @@
 	:global(body) {
 		margin: 0;
 	}
-
-	.scroll-off {
-		overflow: hidden;
-	}
-
-	.scroll-off-horiz {
-		overflow-x: hidden;
-	}
 </style>

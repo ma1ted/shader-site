@@ -5,10 +5,6 @@
 	import previewData from "/static/previews/previewData.json";
 
 	const current = previewData.find(element => element.nameShort === $page.params.name);
-
-	window.onload = () => {
-		document.querySelector("html").classlist = "scroll-off";
-	};
 </script>
 
 <svelte:head>
