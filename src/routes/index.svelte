@@ -2,8 +2,14 @@
 	import Title from "./index/title.svelte";
 	import Footer from "./index/footer.svelte";
 
+	import { onMount } from "svelte";
+
 	// @ts-ignore
 	import previewData from "/static/previews/previewData.json";
+
+	onMount(() => {
+		document.querySelector("html").classlist = "scroll-off-horiz";
+	})
 </script>
 
 <svelte:head>
@@ -27,11 +33,6 @@
 <Footer />
 
 <style>
-	:root {
-		overflow-x: hidden;
-		overflow-y: scroll;
-	}
-
 	#previews-parent {
 		display: grid;
 		grid-template-columns: 1fr 1fr;

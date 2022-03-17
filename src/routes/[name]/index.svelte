@@ -1,10 +1,15 @@
 <script>
 	import { page } from "$app/stores";
+	import { onMount } from "svelte";
 
 	// @ts-ignore
 	import previewData from "/static/previews/previewData.json";
 
 	const current = previewData.find(element => element.nameShort === $page.params.name);
+
+	onMount(() => {
+		document.querySelector("html").classlist = "scroll-off";
+	})
 </script>
 
 <svelte:head>
@@ -48,11 +53,6 @@
 </div>
 
 <style>
-	:root {
-		overflow-x: hidden;
-		overflow-y: hidden;
-	}
-
 	iframe {
 		width: 100vw;
 		height: 100vh;
