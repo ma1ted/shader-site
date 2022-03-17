@@ -10,21 +10,23 @@
 	<title>Malted's Shaders</title>
 </svelte:head>
 
-<Title />
+<div class="index-root">
+	<Title />
 
-<div id="previews-parent">
-	{#each previewData as preview, idx}
-		<a href="{preview.nameShort}">
-			<div class="preview-panel">
-				<img src="{preview.src}" alt="{preview.name} shader preview" />
-				<h3>{preview.name}</h3>
-				<h4>#{String(idx + 1).padStart(3, '0')}</h4>
-			</div>
-		</a>
-	{/each}
+	<div id="previews-parent">
+		{#each previewData as preview, idx}
+			<a href="{preview.nameShort}">
+				<div class="preview-panel">
+					<img src="{preview.src}" alt="{preview.name} shader preview" />
+					<h3>{preview.name}</h3>
+					<h4>#{String(idx + 1).padStart(3, '0')}</h4>
+				</div>
+			</a>
+		{/each}
+	</div>
+
+	<Footer />
 </div>
-
-<Footer />
 
 <style>
 	#previews-parent {

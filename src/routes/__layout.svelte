@@ -28,4 +28,11 @@
 	:global(body) {
 		margin: 0;
 	}
+
+	.index-root {
+		overflow-x: hidden;
+	}
+	.name-root {
+		overflow: hidden;
+	}
 </style>

@@ -28,23 +28,25 @@
 	<meta property="twitter:image" content="/previews/images/{current.nameShort}.png">
 </svelte:head>
 
-<a href="..">
-	<img 
-		class="container back"
-		src="/icons/arrow_back_black_24dp.svg" 
-		alt="back" 
-	/>
-</a>
+<div class="name-root">
+	<a href="..">
+		<img 
+			class="container back"
+			src="/icons/arrow_back_black_24dp.svg" 
+			alt="back" 
+		/>
+	</a>
 
-<iframe 
-	title="Shaderpark iframe" 
-	src="https://shaderpark.com/embed/-{current.id}" 
-	frameborder="0">
-</iframe>
+	<iframe 
+		title="Shaderpark iframe" 
+		src="https://shaderpark.com/embed/-{current.id}" 
+		frameborder="0">
+	</iframe>
 
-<div class="container info">
-	<h1>{current.name}</h1>
-	<h2>#{(previewData.indexOf(current) + 1).toString().padStart(3, '0')}</h2>
+	<div class="container info">
+		<h1>{current.name}</h1>
+		<h2>#{(previewData.indexOf(current) + 1).toString().padStart(3, '0')}</h2>
+	</div>
 </div>
 
 <style>
