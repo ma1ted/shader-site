@@ -1,15 +1,14 @@
 <script>
 	import { page } from "$app/stores";
-	import { onMount } from "svelte";
 
 	// @ts-ignore
 	import previewData from "/static/previews/previewData.json";
 
 	const current = previewData.find(element => element.nameShort === $page.params.name);
 
-	onMount(() => {
+	window.onload = () => {
 		document.querySelector("html").classlist = "scroll-off";
-	})
+	};
 </script>
 
 <svelte:head>
