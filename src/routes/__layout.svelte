@@ -29,10 +29,10 @@
 		margin: 0;
 	}
 
-	.index-root {
+	.no-scroll-horiz {
 		overflow-x: hidden;
 	}
-	.name-root {
+	.no-scroll {
 		overflow: hidden;
 	}
 </style>

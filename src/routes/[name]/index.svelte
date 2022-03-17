@@ -5,6 +5,8 @@
 	import previewData from "/static/previews/previewData.json";
 
 	const current = previewData.find(element => element.nameShort === $page.params.name);
+
+	document.querySelector("html").classlist = "no-scroll";
 </script>
 
 <svelte:head>
@@ -28,25 +30,23 @@
 	<meta property="twitter:image" content="/previews/images/{current.nameShort}.png">
 </svelte:head>
 
-<div class="name-root">
-	<a href="..">
-		<img 
-			class="container back"
-			src="/icons/arrow_back_black_24dp.svg" 
-			alt="back" 
-		/>
-	</a>
+<a href="..">
+	<img 
+		class="container back"
+		src="/icons/arrow_back_black_24dp.svg" 
+		alt="back" 
+	/>
+</a>
 
-	<iframe 
-		title="Shaderpark iframe" 
-		src="https://shaderpark.com/embed/-{current.id}" 
-		frameborder="0">
-	</iframe>
+<iframe 
+	title="Shaderpark iframe" 
+	src="https://shaderpark.com/embed/-{current.id}" 
+	frameborder="0">
+</iframe>
 
-	<div class="container info">
-		<h1>{current.name}</h1>
-		<h2>#{(previewData.indexOf(current) + 1).toString().padStart(3, '0')}</h2>
-	</div>
+<div class="container info">
+	<h1>{current.name}</h1>
+	<h2>#{(previewData.indexOf(current) + 1).toString().padStart(3, '0')}</h2>
 </div>
 
 <style>
