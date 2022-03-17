@@ -5,8 +5,6 @@
 	import previewData from "/static/previews/previewData.json";
 
 	const current = previewData.find(element => element.nameShort === $page.params.name);
-
-	document.querySelector("html").classlist = "no-scroll";
 </script>
 
 <svelte:head>
@@ -50,6 +48,10 @@
 </div>
 
 <style>
+	:root {
+		overflow: hidden;
+	}
+
 	iframe {
 		width: 100vw;
 		height: 100vh;

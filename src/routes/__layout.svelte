@@ -28,11 +28,4 @@
 	:global(body) {
 		margin: 0;
 	}
-
-	.no-scroll-horiz {
-		overflow-x: hidden;
-	}
-	.no-scroll {
-		overflow: hidden;
-	}
 </style>

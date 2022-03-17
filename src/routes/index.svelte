@@ -4,8 +4,6 @@
 
 	// @ts-ignore
 	import previewData from "/static/previews/previewData.json";
-
-	document.querySelector("html").classlist = "no-scroll-horiz";
 </script>
 
 <svelte:head>
@@ -29,6 +27,10 @@
 <Footer />
 
 <style>
+	:root {
+		overflow-x: hidden;
+	}
+
 	#previews-parent {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
