@@ -28,7 +28,8 @@
 
 <style>
 	:root {
-		overflow-y: scroll !important;
+		overflow-x: hidden;
+		overflow-y: scroll;
 	}
 
 	#previews-parent {

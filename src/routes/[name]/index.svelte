@@ -49,7 +49,8 @@
 
 <style>
 	:root {
-		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: hidden;
 	}
 
 	iframe {
