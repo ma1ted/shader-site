@@ -49,8 +49,8 @@
 
 <style>
 	iframe {
-		width: 100vw;
-		height: 100vh;
+		width: 99vw;
+		height: 99vh;
 	}
 
 	.container {
