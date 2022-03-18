@@ -18,6 +18,9 @@
 		font-family: "Roboto Mono", monospace;
 
 		overflow-x: hidden;
+		
+		height: 100vh;
+		width: 100vw;
 	}
 
 	:global(*) {
