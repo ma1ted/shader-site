@@ -1,4 +1,5 @@
 <script>
+	import Warning from "./index/PerfWarn.svelte";
 	import Title from "./index/title.svelte";
 	import Footer from "./index/footer.svelte";
 
@@ -8,7 +9,10 @@
 
 <svelte:head>
 	<title>Malted's Shaders</title>
+	<meta name="viewport" content="width=device-width, initial-scale = 0.86, maximum-scale=3.0, minimum-scale=0.86">
 </svelte:head>
+
+<Warning />
 
 <Title />
 

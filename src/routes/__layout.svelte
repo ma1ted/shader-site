@@ -16,8 +16,6 @@
 		--col-blue: #1a8fe3;
 
 		font-family: "Roboto Mono", monospace;
-
-		overflow-x: hidden;
 	}
 
 	:global(*) {
