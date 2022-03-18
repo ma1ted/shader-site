@@ -15,14 +15,14 @@
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="{window.location.href}">
+	<meta property="og:url" content="https://shaders.malted.dev/{current.nameShort}">
 	<meta property="og:title" content="Malted's {current.name}">
 	<meta property="og:description" content="Malted's {current.name} shader (#{(previewData.indexOf(current) + 1).toString().padStart(3, '0')})">
 	<meta property="og:image" content="/previews/images/{current.nameShort}.png">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="{window.location.href}">
+	<meta property="twitter:url" content="https://shaders.malted.dev/{current.nameShort}">
 	<meta property="twitter:title" content="Malted's {current.name}">
 	<meta property="twitter:description" content="Malted's {current.name} shader (#{(previewData.indexOf(current) + 1).toString().padStart(3, '0')})">
 	<meta property="twitter:image" content="/previews/images/{current.nameShort}.png">
