@@ -33,5 +33,12 @@
 		"src": "/previews/images/foliage.png",
 		"cdn": "https://cdn.discordapp.com/attachments/811964301669695550/954480234802053181/foliage.png",
 		"id": "MyCEnooaO1FlW3vMYhu"
+	},
+	{
+		"name": "Flux Capacitor",
+		"nameShort": "flux",
+		"src": "/previews/images/flux.png",
+		"cdn": "https://cdn.discordapp.com/attachments/811964301669695550/954847288214298654/unknown.png",
+		"id": "MyYhivcXRt3DjFNLTXM"
 	}
 ]
