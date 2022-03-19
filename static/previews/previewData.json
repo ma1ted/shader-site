@@ -35,10 +35,24 @@
 		"id": "MyCEnooaO1FlW3vMYhu"
 	},
 	{
+		"name": "Vitriolic Dread",
+		"nameShort": "vitriol",
+		"src": "/previews/images/vitriol.png",
+		"cdn": "https://cdn.discordapp.com/attachments/811964301669695550/954867433720676382/unknown.png",
+		"id": "MyXUpHebSqkLSyB-5zU"
+	},
+	{
 		"name": "Flux Capacitor",
 		"nameShort": "flux",
 		"src": "/previews/images/flux.png",
 		"cdn": "https://cdn.discordapp.com/attachments/811964301669695550/954847288214298654/unknown.png",
 		"id": "MyYhivcXRt3DjFNLTXM"
+	},
+	{
+		"name": "Synaptic Attraction",
+		"nameShort": "synaptic",
+		"src": "/previews/images/synaptic.png",
+		"cdn": "https://cdn.discordapp.com/attachments/811964301669695550/954871388055957514/unknown.png",
+		"id": "MyZEAw01pbvyjgEmdwj"
 	}
 ]
