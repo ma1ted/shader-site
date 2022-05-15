@@ -89,5 +89,6 @@
 
 	img {
 		height: 2rem;
+		filter: invert(100%);
 	}
 </style>

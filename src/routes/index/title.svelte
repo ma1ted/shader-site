@@ -1,5 +1,5 @@
 <div id="title">
-	<h1>Daily Shaders</h1>
+	<h1>Shaders</h1>
 	<h2>By Malted</h2>
 </div>
 
@@ -16,7 +16,7 @@
 	}
 
 	h1 {
-		font-size: 3rem;
+		font-size: 4rem;
 		margin: 0;
 	}
 
